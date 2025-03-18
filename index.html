@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Plot</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            padding: 10px;
+            background: linear-gradient(90deg, #007BFF, #00C6FF);
+            color: white;
+            text-align: left;
+            width: 100%;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+            animation: fadeIn 2s ease-in-out;
+            position: relative;
+        }
+        .header h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        .header p {
+            font-size: 1em;
+            letter-spacing: 1px;
+            font-weight: 300;
+        }
+        .author {
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            font-size: 1em;
+            font-weight: bold;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            padding: 20px;
+            align-items: center;
+        }
+        .section {
+            text-align: center;
+        }
+        .images {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .images img {
+            width: 50%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>📊 Portfolio Plot</h1>
+        <p>A showcase of data visualizations and process monitoring insights.</p>
+        <div class="author">By Nguyen Thanh Phong</div>
+    </div>
+
+    <div class="container">
+        <div class="section">
+            <h3>1. Monitor Failure Rate Trend Period</h3>
+            <div class="images">
+                <img src="/assets/trend1.png">
+                <img src="/assets/trend2.png">
+                <img src="/assets/trend3.png">
+            </div>
+        </div>
+
+        <div class="section">
+            <h3>2. Monitor Failure Categories</h3>
+            <div class="images">
+                <img src="/assets/fail_trend1.png">
+                <img src="/assets/fail_trend2.jpg">
+            </div>
+        </div>
+
+        <div class="section">
+            <h3>3. Overall System Performance</h3>
+            <div class="images">
+                <img src="/assets/machine1.png">
+            </div>
+        </div>
+
+        <div class="section">
+            <h3>4. Commonality Check</h3>
+            <div class="images">
+                <img src="/assets/defect1.jpg">
+                <img src="/assets/scatter1.jpg">
+                <img src="/assets/distribition1.png">
+                <img src="/assets/corr.png">
+            </div>
+        </div>
+
+        <div class="section">
+            <h3>5. Heatmap Check</h3>
+            <div class="images">
+                <img src="/assets/heatmap1.png">
+            </div>
+        </div>
+
+        <div class="section">
+            <h3>6. Variation Check</h3>
+            <div class="images">
+                <img src="/assets/variation1.png">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
